@@ -227,6 +227,7 @@ img{
 .contenido-contacto form button{
     background: rgb(209, 27, 88);
     transition: .5s;
+    cursor: pointer;
 }
 
 .info-contacto h4,
