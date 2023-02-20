@@ -189,29 +189,71 @@ header{
 }
 
 /*PAGINA CONTACTO*/
-.Contacto{
-    padding: 40px;
+.contenido{
     background-color: rgb(238, 124, 82);
-    display: flex;
-    justify-content: space-between;
-    height: 100%;
-    width: 100%;
-    background-image: url(../Img/Logo.png);
-    background-repeat: no-repeat;
-    background-size: auto auto;
-    background-attachment: fixed;
-    background-position: center;
+    padding:0 1.5em ;
+
 }
-.form{
-        background-color: rgb(97, 168, 196);
-    width: 90%;
-    max-width: 400px;
-    border-radius: 1em;
+.titulo{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+.contenido-contacto{
     border: 2px solid rgb(0, 0, 0) ;
-    padding: 3.5em 1.5em;
-    justify-content: space-between;
+    border-radius: 8px;
+    background-color: rgb(97, 168, 196);
+
+}
+.contenido-contacto > * {
+    padding: 1em;
+}
+.form-contacto form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+    padding: 1em;
+}
+.form-contacto form .separado{
+    grid-column: 1 / 3;
+
 }
 
+.contenido-contacto form button,
+.contenido-contacto form input,
+.contenido-contacto form textarea {
+    width: 100%;
+    padding: .7em;
+
+}
+.contenido-contacto form button{
+    background: rgb(209, 27, 88);
+    transition: .5s;
+}
+
+.info-contacto h4,
+.info-contacto ul,
+.info-contacto p{
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+.info-contacto ul{
+    list-style: none;
+    padding: 0;
+
+}
+
+@media (min-width: 700px) {
+    .contenido{
+        padding: 0 4rem;
+    }
+    .contenido-contacto{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+}
 
 /*PAGINA PREGUNTAS FRECUENTES*/
 .titulo{
