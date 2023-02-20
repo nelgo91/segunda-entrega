@@ -1,0 +1,290 @@
+                    /* RESEAT   */
+                    *{
+                        box-sizing: border-box;
+                        margin: 0;
+                        padding: 0;
+                        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                        font-size: 30px;
+                    }
+                    
+                                        /*  HEADER  */
+                    header{
+                        background-color: rgb(209, 27, 88);
+                        padding: 20px;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: space-between;
+                    }
+                    .header__logo{
+                        display: flex;
+                        align-items: center;
+                        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                        font-size: 20px;
+                        
+                    }
+                    .header__logo img{
+                        width: 60px;
+                    
+                    }
+                    .header__nav ul{
+                        list-style-type: none;
+                        margin: 0;
+                        padding: 0;
+                        display: flex;
+                        color: black;
+                        transition: .5s;
+                    }
+                    .header__nav ul li{
+                        padding: 0px 25px;
+                        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                        color: black;
+                    }
+                    .header__nav ul li a{
+                        border: 2px solid black;
+                        font-size: 20;
+                        color: black;
+                        text-decoration:none ;
+                    }
+                    .header__nav li:hover{
+                        transform: scale(1.2);
+                    }
+                    .header__nav li:hover a{
+                        color: blueviolet;
+                    }
+                    
+                                        /*  MAIN-HOME   */
+                    .producto0{
+                        background-color: rgb(238, 124, 82);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center
+                    }
+                    .producto1{
+                        background-color: rgb(97, 168, 196);
+                        padding: 0px 20px;
+                        border: 2px solid rgb(0, 0, 0) ;
+                        border-radius: 8px;
+                        padding: 20px;
+                        width: 300px;
+                    }
+                    .producto1 img{
+                        width: 100%;
+                        border-radius: 8px;
+                    }
+                        
+                    .producto2{
+                        background-color: rgb(97, 168, 196);
+                        padding: 0px 20px;
+                        border: 2px solid rgb(0, 0, 0) ;
+                        border-radius: 8px;
+                        padding: 20px;
+                        width: 300px;
+                    }
+                    .producto2 img{
+                        width: 100%;
+                        border-radius: 8px;
+                    }
+                    .producto3{
+                        background-color: rgb(97, 168, 196);
+                        padding: 0px 20px;
+                        border: 2px solid rgb(0, 0, 0) ;
+                        border-radius: 8px;
+                        padding: 20px;
+                        width: 300px;
+                    }
+                    .producto3 img{
+                        width: 100%;
+                        border-radius: 8px;
+                    }
+                    
+                                        /*  FOOTER   */
+                    .redessociales{
+                        padding: 40px;
+                        background-color: rgb(209, 27, 88);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center
+                    }
+                    .instagram img{
+                        width: 30%;
+                    }
+                    .instagram{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center
+                    }
+                    .facebook img{
+                        width: 30%;
+                    }
+                    .facebook{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center
+                    }
+                    .wsp img{
+                        width: 50%;
+                    }
+                    .wsp{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center
+                    }
+                    
+                    /*PAGINA PRODUCTOS*/
+                    .tarjeta-producto__imagen{
+                        width: 100%;
+                        border-radius: 8px;
+                    }
+                    .tarjeta-productoB img{
+                        width: 100%;
+                        border-radius: 8px;
+                    }
+                    .tarjeta-productoB{
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap; 
+                        align-items: center;
+                        justify-content: center
+                        
+                    }
+                    .tarjeta-productoP{
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap; 
+                        align-items: center;
+                        justify-content: center
+                    }
+                    .tarjeta-productosOtros{
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap; 
+                        align-items: center;
+                        justify-content: center
+                    }
+                    .tarjeta-producto{
+                        background-color: rgb(97, 168, 196);
+                        width: 23%;
+                        padding: 10px;
+                        padding: 0px 20px;
+                        border: 2px solid rgb(0, 0, 0) ;
+                        border-radius: 8px;
+                        padding: 20px;
+                        width: 300px;
+                        
+                    
+                    }
+                    .Contenedordeproductos{
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap; 
+                        align-items: center;
+                        justify-content: center
+                    }
+                    #productos{
+                        background-color: rgb(238, 124, 82);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center
+                    }
+                    
+                    /*PAGINA CONTACTO*/
+                    .Contacto{
+                        padding: 40px;
+                        background-color: rgb(238, 124, 82);
+                        display: flex;
+                        justify-content: space-between;
+                        height: 100%;
+                        width: 100%;
+                        background-image: url(../Img/Logo.png);
+                        background-repeat: no-repeat;
+                        background-size: auto auto;
+                        background-attachment: fixed;
+                        background-position: center;
+                    }
+                    .form{
+                        background-color: rgb(97, 168, 196);
+                        width: 90%;
+                        max-width: 400px;
+                        border-radius: 1em;
+                        border: 2px solid rgb(0, 0, 0) ;
+                        padding: 3.5em 1.5em;
+                        justify-content: space-between;
+                    }
+                    
+                    
+                    /*PAGINA PREGUNTAS FRECUENTES*/
+                    .titulo{
+                        background-color: rgb(238, 124, 82);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        
+                        
+                    }
+                    .PF p{
+                        background-color: rgb(238, 124, 82);
+                        display: flex;
+                        background-image: url(../Img/Logo.png);
+                        background-repeat: no-repeat;
+                        background-size: auto auto;
+                        background-attachment: fixed;
+                        background-position: center;
+                    }
+                    .preg{
+                        font-size: 30px;
+                        text-align: center;
+                        justify-content: center;
+                    }
+                    .resp{
+                        font-size: 20px;
+                        text-align: center;
+                        justify-content: center;
+                    }
+                    
+                    /*PAGINA SERVICIOS*/
+                    .Caratula{
+                        background-color: rgb(238, 124, 82);
+                    }
+                    .Serv{
+                        background-color: rgb(238, 124, 82);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    .intro{
+                        background-color: rgb(238, 124, 82);
+                        font-size: 30px;
+                        text-align: center;
+                        justify-content: center;
+                    }
+                    .intro2{
+                        background-color: rgb(238, 124, 82);
+                        font-size: 30px;
+                        text-align: center;
+                        justify-content: center;
+                    }
+                    .Cartaserv li{
+                        background-color: rgb(97, 168, 196);
+                        width: 90%;
+                        max-width: 400px;
+                        border-radius: 1em;
+                        border: 2px solid rgb(0, 0, 0) ;
+                        padding: 3.5em 1.5em;
+                        justify-content: center;
+                        font-size: 30px;
+                    }
+                    .Servicios ul{
+                        display: flex;
+                        justify-content: space-between;
+                    
+                    }
+                    .Cartaserv li img{
+                        width: 60px;
+                        justify-content: center;
+                    }
+                    .Servicios{
+                        background-color: rgb(238, 124, 82);
+                        display: flex;
+                        align-items: center;
+                    }
